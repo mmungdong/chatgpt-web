@@ -1,0 +1,44 @@
+# 忽略 Go 构建输出目录
+/bin
+/build
+/dist
+
+# 忽略 Go 模块缓存
+/pkg
+
+# 忽略版本控制系统目录
+.git
+.gitignore
+.gitattributes
+
+# 忽略编辑器和操作系统生成的文件
+*.swp
+*~
+*.swo
+*.idea
+*.vscode
+.DS_Store
+Thumbs.db
+*.log
+
+# 忽略测试和临时文件
+*.out
+*.test
+*.exe
+*.tmp
+
+# 忽略依赖缓存目录
+/vendor/
+
+# 忽略配置文件（根据需要调整）
+.env
+*.env
+
+# 忽略 Docker 配置文件
+.dockerignore
+Dockerfile
+
+# 忽略文档和本地开发工具
+/docs
+README.md
+LICENSE

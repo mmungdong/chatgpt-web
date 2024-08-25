@@ -1,0 +1,8 @@
+http:
+  host: 0.0.0.0
+  port: 3001
+  access_key: "U2FsdGVkX18Jx5aA32ZVe5TFbAjMZI2uIxTl9sv88PY="
+
+chat:
+  base_url: "https://api.openai.com/v1"
+  api_key: "YOUR_API_KEY"
